@@ -1,0 +1,221 @@
+<section id="contact" class="content-section contact-spa">
+<nav class="breadcrumb" data-breadcrumb="contact" aria-label="Breadcrumb"></nav>
+<div class="page">
+
+    <section class="intro">
+        <div class="badge">Contact Us</div>
+
+        <h1>
+            Let's start a
+            <span>conversation.</span>
+        </h1>
+
+        <p>
+            Have a question, need more information, or want to discuss
+            something with us? Send us a message or find us on the map below.
+            Our team is always happy to help.
+        </p>
+    </section>
+
+    <section class="contact-grid">
+
+        <article class="info-card">
+
+            <h2>Get in touch</h2>
+
+            <p>
+                Reach us through any of the contact details below.
+                We are available during our business hours.
+            </p>
+
+            <div class="detail">
+                <div class="icon">⌖</div>
+                <div class="detail-text">
+                    <h3>Address</h3>
+                    <p>
+                        PECHS, Karachi, Sindh<br>
+                        Pakistan
+                    </p>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="icon">☎</div>
+                <div class="detail-text">
+                    <h3>Phone</h3>
+                    <a href="tel:+923001234567">
+                        +92 300 1234567
+                    </a>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="icon">✉</div>
+                <div class="detail-text">
+                    <h3>Email</h3>
+                    <a href="mailto:hello@greenluxe.com">
+                        hello@greenluxe.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="icon">◷</div>
+                <div class="detail-text">
+                    <h3>Opening Hours</h3>
+                    <p>
+                        Monday — Saturday<br>
+                        10:00 AM — 7:00 PM
+                    </p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="form-card">
+
+            <h2>Send us a message</h2>
+
+            <p>
+                Fill in the details below and tell us how we can help.
+            </p>
+
+            <form id="form">
+
+                <div class="form-row">
+
+                    <div class="field">
+                        <label for="fullName">Full Name</label>
+                        <input
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+                <div class="field">
+                    <label for="phone">Phone Number</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="+92 300 1234567"
+                        autocomplete="tel"
+                        inputmode="tel"
+                        maxlength="16"
+                        required
+                    >
+                </div>
+
+                <div class="field">
+                    <label for="subject">Subject</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="What would you like to discuss?"
+                        required
+                    >
+                </div>
+
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea style="resize: none;"
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button
+                    type="submit"
+                    class="submit"
+                >
+                    <span>Send Message</span>
+                    <span>→</span>
+                </button>
+
+                <div
+                    class="form-alert"
+                    id="formAlert"
+                    role="status"
+                    aria-live="polite"
+                >
+                    ✓ Thank you! Your message has been received.
+                </div>
+
+            </form>
+
+        </article>
+
+    </section>
+
+    <section class="location">
+
+        <div class="location-head">
+            <small>Find Us</small>
+
+            <h2>Our location</h2>
+
+            <p>
+                View our location on Google Maps or use the location
+                button to show your current position.
+            </p>
+        </div>
+
+        <div class="map">
+
+            <iframe
+                id="mapFrame"
+                title="Our location on Google Maps"
+                src="https://maps.google.com/maps?q=PECHS,Karachi,Pakistan&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <button
+                type="button"
+                class="locate-btn"
+                id="locateBtn"
+            >
+                <span>📍</span>
+                <span>Use My Location</span>
+            </button>
+
+            <div
+                class="status"
+                id="statusBox"
+                role="status"
+                aria-live="polite">
+            </div>
+
+        </div>
+
+        <div class="note">
+            <span>●</span>
+            Your location is requested only when you use the location feature.
+        </div>
+
+    </section>
+
+</div>
+</section>

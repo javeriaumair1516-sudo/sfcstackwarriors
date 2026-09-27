@@ -1,0 +1,47 @@
+<section id="marketDetailPage" class="market-detail-page">
+    <nav class="breadcrumb" data-breadcrumb="marketDetail" aria-label="Breadcrumb"></nav>
+
+    <div class="container">
+        <button type="button" class="breadcrumb-link" id="backToDirectory">
+            <i class="fa-solid fa-arrow-left"></i> Back to Market Directory
+        </button>
+        <div class="detail-hero">
+            <span class="hero-badge"><i class="fa-solid fa-leaf"></i> FRESHFIND MARKET GUIDE</span>
+            <h1 id="detailName">Market Details</h1>
+            <p id="detailDescription">Loading market information...</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="detail-panel">
+                    <img class="detail-main-image" id="detailImage" src="" alt="Market">
+                    <h3>Market Information</h3>
+                    <div class="detail-info-row"><div class="detail-info-icon"><i class="fa-solid fa-location-dot"></i></div><div><strong>Full Address</strong><p id="detailAddress"></p></div></div>
+                    <div class="detail-info-row"><div class="detail-info-icon"><i class="fa-solid fa-map-location-dot"></i></div><div><strong>Area / Neighborhood</strong><p id="detailArea"></p></div></div>
+                    <div class="detail-info-row"><div class="detail-info-icon"><i class="fa-regular fa-clock"></i></div><div><strong>Operating Hours</strong><p id="detailHours"></p></div></div>
+                </div>
+                <div class="detail-panel">
+                    <h3><i class="fa-regular fa-calendar-days"></i> Weekly Schedule</h3>
+                    <div class="table-responsive"><table class="schedule-table"><thead><tr><th>Day</th><th>Opening Hours</th><th>Status</th></tr></thead><tbody id="scheduleBody"></tbody></table></div>
+                </div>
+                <div class="detail-panel">
+                    <h3><i class="fa-solid fa-seedling"></i> Fresh Produce Available</h3>
+                    <p class="detail-subtitle">Explore produce typically available at this market.</p>
+                    <div class="product-grid" id="productGrid"></div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="detail-panel">
+                    <h3><i class="fa-solid fa-map-location-dot"></i> Find This Market</h3>
+                    <p class="detail-subtitle" id="mapAddress"></p>
+                    <iframe class="map-frame" id="marketMap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Market location map"></iframe>
+                    <a class="directions-btn" href="#" id="directionsLink" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a>
+                </div>
+                <div class="detail-panel">
+                    <h3><i class="fa-solid fa-leaf"></i> Market Highlights</h3>
+                    <div class="detail-info-row"><div class="detail-info-icon"><i class="fa-solid fa-carrot"></i></div><div><strong>Produce Categories</strong><p id="detailProduce"></p></div></div>
+                    <div class="detail-info-row"><div class="detail-info-icon"><i class="fa-solid fa-calendar-check"></i></div><div><strong>Operating Days</strong><p id="detailDays"></p></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

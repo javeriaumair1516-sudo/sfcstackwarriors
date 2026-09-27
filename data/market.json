@@ -1,0 +1,1931 @@
+[
+  {
+    "id": 1,
+    "name": "Gulshan Sunday Bachat Bazaar",
+    "area": "Gulshan-e-Iqbal Block 6",
+    "days": [
+      "Sunday"
+    ],
+    "hours": "08:00 AM - 06:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market1.jpg",
+    "map": "https://maps.google.com/?q=Gulshan+Iqbal+Karachi",
+    "description": "Massive weekly bachat bazaar offering direct farm fresh green leafy vegetables and seasonal fruits at wholesale prices.",
+    "lat": 24.9179,
+    "lng": 67.0982,
+    "address": "Gulshan-e-Iqbal Block 6, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Empress Market Fresh Hub",
+    "area": "Saddar Town",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "07:00 AM - 09:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market2.jpg",
+    "map": "https://maps.google.com/?q=Empress+Market+Karachi",
+    "description": "Historic central wholesale market supplying all varieties of fresh local produce.",
+    "lat": 24.86,
+    "lng": 67.0104,
+    "address": "Saddar Town, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clifton Organic Produce Stand",
+    "area": "Clifton Block 2",
+    "days": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "hours": "09:00 AM - 08:00 PM",
+    "produce": [
+      "Fruits"
+    ],
+    "image": "assests/market3.jpg",
+    "map": "https://maps.google.com/?q=Clifton+Block+2+Karachi",
+    "description": "Specialized fresh fruit bazaar with imported and premium local farm fruits.",
+    "lat": 24.8138,
+    "lng": 67.03,
+    "address": "Clifton Block 2, Karachi, Pakistan",
+    "products": {
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Nazimabad No. 3 Sabzi Mandi",
+    "area": "Nazimabad No. 3",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "06:00 AM - 02:00 PM",
+    "produce": [
+      "Vegetables"
+    ],
+    "image": "assests/market4.jpg",
+    "map": "https://maps.google.com/?q=Nazimabad+3+Karachi",
+    "description": "Early morning fresh vegetable market providing daily essentials at low rates.",
+    "lat": 24.9105,
+    "lng": 67.0289,
+    "address": "Nazimabad No. 3, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "DHA Rahat Fresh Corner",
+    "area": "DHA Phase 6",
+    "days": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "hours": "10:00 AM - 10:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market5.jpg",
+    "map": "https://maps.google.com/?q=DHA+Phase+6+Karachi",
+    "description": "Clean and organized neighborhood market for Defense and Clifton residents.",
+    "lat": 24.8,
+    "lng": 67.063,
+    "address": "DHA Phase 6, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "PECHS Tariq Road Veggies",
+    "area": "PECHS Block 2",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "08:00 AM - 10:00 PM",
+    "produce": [
+      "Vegetables"
+    ],
+    "image": "assests/market6.jpg",
+    "map": "https://maps.google.com/?q=Tariq+Road+Karachi",
+    "description": "Quick daily supply market for fresh greens and root vegetables.",
+    "lat": 24.872,
+    "lng": 67.064,
+    "address": "PECHS Block 2, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Malir Farm Produce Point",
+    "area": "Malir Cantt Road",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "05:00 AM - 01:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market7.jpg",
+    "map": "https://maps.google.com/?q=Malir+Karachi",
+    "description": "Direct farm-to-table market sourced straight from Malir agriculture lands.",
+    "lat": 24.89,
+    "lng": 67.193,
+    "address": "Malir Cantt Road, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "North Nazimabad Bachat Bazaar",
+    "area": "North Nazimabad Block H",
+    "days": [
+      "Friday",
+      "Sunday"
+    ],
+    "hours": "08:00 AM - 07:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market8.jpg",
+    "map": "https://maps.google.com/?q=North+Nazimabad+Karachi",
+    "description": "Popular weekly bachat bazaar offering highly discounted produce rates.",
+    "lat": 24.937,
+    "lng": 67.053,
+    "address": "North Nazimabad Block H, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Water Pump Market FB Area",
+    "area": "FB Area Block 14",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "08:00 AM - 09:00 PM",
+    "produce": [
+      "Vegetables"
+    ],
+    "image": "assests/market9.jpg",
+    "map": "https://maps.google.com/?q=Water+Pump+FB+Area+Karachi",
+    "description": "Busy central market serving Federal B Area with fresh daily vegetables.",
+    "lat": 24.931,
+    "lng": 67.072,
+    "address": "FB Area Block 14, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Johar Chowrangi Fresh Fruits",
+    "area": "Gulistan-e-Johar Block 12",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "08:00 AM - 11:00 PM",
+    "produce": [
+      "Fruits"
+    ],
+    "image": "assests/market10.jpg",
+    "map": "https://maps.google.com/?q=Johar+Chowrangi+Karachi",
+    "description": "Dedicated fruit stalls with fresh apples, oranges, mangoes, and melons.",
+    "lat": 24.92,
+    "lng": 67.13,
+    "address": "Gulistan-e-Johar Block 12, Karachi, Pakistan",
+    "products": {
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Korangi Sector 33 Sabzi Market",
+    "area": "Korangi Industrial Area",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "hours": "05:00 AM - 12:00 PM",
+    "produce": [
+      "Vegetables"
+    ],
+    "image": "assests/market11.jpg",
+    "map": "https://maps.google.com/?q=Korangi+Karachi",
+    "description": "Wholesale fresh vegetable market for industrial and local residents.",
+    "lat": 24.846,
+    "lng": 67.133,
+    "address": "Korangi Industrial Area, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Bahria Town Organic Corner",
+    "area": "Bahria Town Precinct 1",
+    "days": [
+      "Saturday",
+      "Sunday"
+    ],
+    "hours": "09:00 AM - 08:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market12.jpg",
+    "map": "https://maps.google.com/?q=Bahria+Town+Karachi",
+    "description": "Premium quality fresh and organic fruit and vegetable stalls.",
+    "lat": 24.898,
+    "lng": 67.235,
+    "address": "Bahria Town Precinct 1, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Super Highway Wholesale Mandi",
+    "area": "Sohrab Goth",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "03:00 AM - 11:00 AM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market13.jpg",
+    "map": "https://maps.google.com/?q=Sohrab+Goth+Sabzi+Mandi+Karachi",
+    "description": "The primary main wholesale mandi of Karachi supplying fresh stock daily.",
+    "lat": 24.949,
+    "lng": 67.105,
+    "address": "Sohrab Goth, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Lyari Khadda Market Produce",
+    "area": "Lyari Town",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "07:00 AM - 09:00 PM",
+    "produce": [
+      "Vegetables"
+    ],
+    "image": "assests/market14.jpg",
+    "map": "https://maps.google.com/?q=Khadda+Market+Lyari+Karachi",
+    "description": "Traditional local neighborhood fresh vegetable stalls.",
+    "lat": 24.872,
+    "lng": 66.993,
+    "address": "Lyari Town, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Shah Faisal Block 3 Bazaar",
+    "area": "Shah Faisal Colony",
+    "days": [
+      "Tuesday",
+      "Sunday"
+    ],
+    "hours": "08:00 AM - 05:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market15.jpg",
+    "map": "https://maps.google.com/?q=Shah+Faisal+Colony+Karachi",
+    "description": "Weekly community bachat market providing budget-friendly fresh produce.",
+    "lat": 24.878,
+    "lng": 67.178,
+    "address": "Shah Faisal Colony, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "North Karachi Sector 11 Hub",
+    "area": "North Karachi",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "08:00 AM - 10:00 PM",
+    "produce": [
+      "Vegetables"
+    ],
+    "image": "assests/market16.jpg",
+    "map": "https://maps.google.com/?q=North+Karachi+Sector+11",
+    "description": "High-volume local retail vegetable center with multiple stalls.",
+    "lat": 24.97,
+    "lng": 67.065,
+    "address": "North Karachi, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "PIB Colony Central Market",
+    "area": "PIB Colony",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "08:00 AM - 09:00 PM",
+    "produce": [
+      "Fruits"
+    ],
+    "image": "assests/market17.jpg",
+    "map": "https://maps.google.com/?q=PIB+Colony+Karachi",
+    "description": "Fresh fruit market specializing in seasonal Pakistani fruits.",
+    "lat": 24.868,
+    "lng": 67.033,
+    "address": "PIB Colony, Karachi, Pakistan",
+    "products": {
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Defense Phase 2 Ext Produce Market",
+    "area": "DHA Phase 2 Extension",
+    "days": [
+      "Everyday"
+    ],
+    "hours": "09:00 AM - 11:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market18.jpg",
+    "map": "https://maps.google.com/?q=DHA+Phase+2+Karachi",
+    "description": "Convenient air-conditioned store and open fresh vegetable counters.",
+    "lat": 24.808,
+    "lng": 67.049,
+    "address": "DHA Phase 2 Extension, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Boat Basin Night Produce Stand",
+    "area": "Clifton Block 5",
+    "days": [
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "hours": "04:00 PM - 11:00 PM",
+    "produce": [
+      "Fruits"
+    ],
+    "image": "assests/market19.jpg",
+    "map": "https://maps.google.com/?q=Boat+Basin+Clifton+Karachi",
+    "description": "Evening market specializing in fresh fruit varieties and natural juices.",
+    "lat": 24.807,
+    "lng": 67.033,
+    "address": "Clifton Block 5, Karachi, Pakistan",
+    "products": {
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "FB Area Block 6 Wednesday Market",
+    "area": "FB Area Block 6",
+    "days": [
+      "Wednesday"
+    ],
+    "hours": "08:00 AM - 06:00 PM",
+    "produce": [
+      "Vegetables",
+      "Fruits"
+    ],
+    "image": "assests/market20.jpg",
+    "map": "https://maps.google.com/?q=FB+Area+Block+6+Karachi",
+    "description": "Weekly Wednesday market with fresh, affordable farm greens.",
+    "lat": 24.928,
+    "lng": 67.067,
+    "address": "FB Area Block 6, Karachi, Pakistan",
+    "products": {
+      "Vegetables": {
+        "yearRound": [
+          {
+            "name": "Potato",
+            "icon": "🥔"
+          },
+          {
+            "name": "Onion",
+            "icon": "🧅"
+          },
+          {
+            "name": "Tomato",
+            "icon": "🍅"
+          },
+          {
+            "name": "Garlic",
+            "icon": "🧄"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Carrot",
+            "icon": "🥕"
+          },
+          {
+            "name": "Spinach",
+            "icon": "🥬"
+          },
+          {
+            "name": "Peas",
+            "icon": "🫛"
+          },
+          {
+            "name": "Cauliflower",
+            "icon": "🥦"
+          },
+          {
+            "name": "Okra",
+            "icon": "🌿"
+          },
+          {
+            "name": "Cucumber",
+            "icon": "🥒"
+          },
+          {
+            "name": "Bottle Gourd",
+            "icon": "🍈"
+          },
+          {
+            "name": "Bitter Gourd",
+            "icon": "🥒"
+          }
+        ]
+      },
+      "Fruits": {
+        "yearRound": [
+          {
+            "name": "Banana",
+            "icon": "🍌"
+          },
+          {
+            "name": "Apple",
+            "icon": "🍎"
+          }
+        ],
+        "seasonal": [
+          {
+            "name": "Mango",
+            "icon": "🥭"
+          },
+          {
+            "name": "Watermelon",
+            "icon": "🍉"
+          },
+          {
+            "name": "Muskmelon",
+            "icon": "🍈"
+          },
+          {
+            "name": "Orange",
+            "icon": "🍊"
+          },
+          {
+            "name": "Guava",
+            "icon": "🍐"
+          },
+          {
+            "name": "Grapes",
+            "icon": "🍇"
+          },
+          {
+            "name": "Pomegranate",
+            "icon": "❤️"
+          },
+          {
+            "name": "Peach",
+            "icon": "🍑"
+          }
+        ]
+      }
+    }
+  }
+]

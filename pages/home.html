@@ -1,0 +1,73 @@
+<section class="home-page" id="home">
+<div class="home-video-hero" aria-label="FreshFind home video">
+        <video autoplay muted loop playsinline preload="metadata" aria-label="Fresh local market video">
+            <source src="assests/header1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <section class="home-intro-split container" data-wow-delay=".05s">
+        <div class="home-intro-copy home-side-reveal home-side-left wow animate__fadeInLeft" data-wow-delay=".05s">
+            <span class="home-eyebrow">INTRODUCING FRESHFIND</span>
+            <h2>Fresh Markets.<br><em>Closer to You.</em></h2>
+            <p>FreshFind helps you discover local farmers markets, seasonal produce and market timings in one simple place. Search by area, day or produce and find fresh local choices without the hassle.</p>
+            <p>Explore nearby markets, save your favourites and discover what is in season this week.</p>
+        </div>
+        <div class="home-intro-image-wrap home-side-reveal home-side-right wow animate__fadeInRight" data-wow-delay=".12s">
+            <img src="assests/market9.jpg" alt="Fresh vegetables at a local market" loading="lazy">
+            <span class="home-intro-image-badge"><i class="fa-solid fa-leaf"></i> Fresh • Local • Seasonal</span>
+        </div>
+    </section>
+    <section class="home-discovery container">
+        <div class="home-intro wow animate__animated animate__fadeInUp" data-wow-delay=".05s">
+            <span class="home-eyebrow">FRESHFIND DISCOVERY</span>
+            <h2>Find a Market Near You</h2>
+            <p>Search by area, day of the week or produce type. Your results open directly in the Market Directory.</p>
+        </div>
+
+        <form id="homeQuickFind" class="home-quick-find wow animate__animated animate__fadeInUp" data-wow-delay=".12s">
+            <div class="quick-find-field">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <label for="homeArea">Area</label>
+                <input id="homeArea" type="search" placeholder="e.g. Gulshan, Clifton..." autocomplete="off">
+            </div>
+            <div class="quick-find-field">
+                <i class="fa-regular fa-calendar"></i>
+                <label for="homeDay">Day</label>
+                <select id="homeDay">
+                    <option value="">Any day</option>
+                    <option>Monday</option><option>Tuesday</option><option>Wednesday</option>
+                    <option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option>
+                </select>
+            </div>
+            <div class="quick-find-field">
+                <i class="fa-solid fa-carrot"></i>
+                <label for="homeProduce">Produce</label>
+                <select id="homeProduce"><option value="">Any produce</option></select>
+            </div>
+            <button type="submit" class="quick-find-btn"><i class="fa-solid fa-magnifying-glass"></i> Find Markets</button>
+        </form>
+
+        <div id="homeSearchResults" class="home-search-results" hidden>
+            <div class="home-results-heading">
+                <div><span class="home-eyebrow">SEARCH RESULTS</span><h3>Markets Found</h3><p id="homeResultsSubtitle">Choose a market below.</p></div>
+                <button type="button" id="homeClearResults" class="home-clear-results"><i class="fa-solid fa-xmark"></i> Clear</button>
+            </div>
+            <div id="homeSearchGrid" class="row g-4"></div>
+        </div>
+
+        <div class="home-highlights wow animate__animated animate__fadeInUp" data-wow-delay=".18s">
+            <div class="home-section-heading">
+                <div><span class="home-eyebrow">TODAY & THIS WEEK</span><h2>FreshFind Highlights</h2></div>
+                <div class="highlight-dots" id="highlightDots" aria-label="Highlight slides"></div>
+            </div>
+            <div id="homeHighlightStage" class="highlight-stage" aria-live="polite"></div>
+        </div>
+
+        <div class="home-feature-grid">
+            <article class="home-feature wow animate__animated animate__fadeInUp" data-wow-delay=".05s"><i class="fa-solid fa-store"></i><h3>Local Markets</h3><p>Discover farmers markets in your area.</p></article>
+            <article class="home-feature wow animate__animated animate__fadeInUp" data-wow-delay=".12s"><i class="fa-solid fa-leaf"></i><h3>Seasonal Picks</h3><p>Explore fresh produce that is in season this week.</p></article>
+            <article class="home-feature wow animate__animated animate__fadeInUp" data-wow-delay=".19s"><i class="fa-solid fa-clock"></i><h3>Market Timings</h3><p>Check opening days and hours before you visit.</p></article>
+        </div>
+    </section>
+    <button type="button" class="home-scroll-top" id="homeScrollTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+</section>

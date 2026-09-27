@@ -1,0 +1,136 @@
+<main id="directoryView">
+<nav class="breadcrumb" data-breadcrumb="markets" aria-label="Breadcrumb"></nav>
+
+<section class="directory-section" id="directory">
+<div class="container">
+<div class="section-heading">
+<span class="section-eyebrow">
+                        YOUR NEIGHBORHOOD, YOUR HARVEST
+                    </span>
+<h2>
+                        Explore Local Markets
+                    </h2>
+<p>
+                        Find a market, discover seasonal produce,
+                        and plan your next fresh-food visit.
+                    </p>
+</div>
+<div class="search-box">
+<i class="fa-solid fa-magnifying-glass"></i>
+<input aria-label="Search markets" id="marketSearch" placeholder="Search by market name, area or produce..." type="search"/>
+<button aria-label="Clear search" class="clear-search" id="clearSearch" style="display:none;" type="button">
+<i class="fa-solid fa-xmark"></i>
+</button>
+</div>
+<div class="filter-panel">
+<div class="filter-heading">
+<div>
+<i class="fa-solid fa-sliders"></i>
+<strong>Find Your Market</strong>
+</div>
+<button class="reset-btn" id="resetFilters" type="button">
+<i class="fa-solid fa-rotate-left"></i>
+                            Reset Filters
+
+                        </button>
+</div>
+<div class="row g-3">
+<div class="col-lg-3 col-md-6">
+<label for="areaFilter">
+<i class="fa-solid fa-map-pin"></i>
+                                Neighborhood
+                            </label>
+<select class="form-select" id="areaFilter">
+<option value="">All Areas</option>
+</select>
+</div>
+<div class="col-lg-3 col-md-6">
+<label for="dayFilter">
+<i class="fa-regular fa-calendar"></i>
+                                Day of the Week
+                            </label>
+<select class="form-select" id="dayFilter">
+<option value="">All Days</option>
+<option value="Monday">Monday</option>
+<option value="Tuesday">Tuesday</option>
+<option value="Wednesday">Wednesday</option>
+<option value="Thursday">Thursday</option>
+<option value="Friday">Friday</option>
+<option value="Saturday">Saturday</option>
+<option value="Sunday">Sunday</option>
+</select>
+</div>
+<div class="col-lg-3 col-md-6">
+<label for="produceFilter">
+<i class="fa-solid fa-carrot"></i>
+                                Produce Type
+                            </label>
+<select class="form-select" id="produceFilter">
+<option value="">All Produce</option>
+</select>
+</div>
+<div class="col-lg-3 col-md-6">
+<label for="sortFilter">
+<i class="fa-solid fa-arrow-down-wide-short"></i>
+                                Sort Markets
+                            </label>
+<select class="form-select" id="sortFilter">
+<option value="az">Name: A – Z</option>
+<option value="za">Name: Z – A</option>
+<option value="nearest">Nearest First</option>
+<option value="nextopen">Next Open Day</option>
+</select>
+</div>
+</div>
+<div class="location-row">
+<button class="location-btn" id="locationBtn" type="button">
+<i class="fa-solid fa-location-crosshairs"></i>
+                            Use My Location
+
+                        </button>
+<p aria-live="polite" id="locationMessage">
+                            Enable location to find nearby markets.
+                        </p>
+</div>
+</div>
+<div class="results-heading">
+<div>
+<span class="section-eyebrow">
+                            DISCOVER YOUR LOCAL FINDS
+                        </span>
+<h3>Markets Near You</h3>
+<p id="resultsSubtitle">
+                            Explore farmers markets in your area.
+                        </p>
+</div>
+<span class="market-count-badge" id="marketCount">
+                        Loading markets...
+                    </span>
+</div>
+<div class="active-filters" id="activeFilters"></div>
+<div class="loading-state" id="marketLoader">
+<div class="spinner-border" role="status">
+<span class="visually-hidden">Loading...</span>
+</div>
+<p>Discovering local markets...</p>
+</div>
+<div class="row g-4" id="marketContainer">
+</div>
+<div class="empty-state d-none" id="emptyState">
+<div class="empty-icon">
+<i class="fa-solid fa-basket-shopping"></i>
+</div>
+<h3>No Markets Found</h3>
+<p>
+                        We couldn't find any markets matching
+                        your filters. Try changing your search.
+                    </p>
+<button class="hero-btn" id="emptyReset" type="button">
+
+                        Clear Filters
+                        <i class="fa-solid fa-arrow-rotate-left"></i>
+</button>
+</div>
+</div>
+</section>
+</main>

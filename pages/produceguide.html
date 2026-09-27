@@ -1,0 +1,91 @@
+<section id="produce" class="content-section produce-guide-page">
+    <nav class="breadcrumb" data-breadcrumb="produce" aria-label="Breadcrumb"></nav>
+
+    <div class="produce-app-shell">
+        <div class="produce-topbar">
+            <div class="produce-tabs" role="tablist" aria-label="Produce guide sections">
+                <button type="button" class="produce-tab active" data-produce-tab="catalog"><i class="fa-solid fa-leaf"></i><span>Produce Catalog</span></button>
+                <button type="button" class="produce-tab" data-produce-tab="markets"><i class="fa-solid fa-shop"></i><span>Farmers Markets</span></button>
+                <button type="button" class="produce-tab produce-tab-bookmarks" data-produce-tab="bookmarks"><i class="fa-solid fa-bookmark"></i><span>Saved Items</span><span id="produceSavedCount" class="produce-count-badge" hidden>0</span></button>
+            </div>
+            <div class="produce-search-wrap">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" id="produceGlobalSearch" placeholder="Search produce..." aria-label="Search produce">
+            </div>
+        </div>
+
+        <section id="produceViewCatalog" class="produce-tab-view">
+            <div class="produce-catalog-hero">
+                <div class="produce-hero-copy">
+                    <span class="produce-eyebrow"><i class="fa-solid fa-circle-check"></i> Fresh Local Harvest</span>
+                    <h1>Seasonal Produce Catalog</h1>
+                    <p>Explore fruits, vegetables, herbs, dairy and pantry goods with their season, description and local market availability.</p>
+                </div>
+            </div>
+
+            <div class="produce-toolbar">
+                <div id="produceCategoryBar" class="produce-category-bar"></div>
+                <span id="produceCatalogCounter" class="produce-catalog-counter">Showing items...</span>
+            </div>
+            <div id="produceCatalogGrid" class="produce-catalog-grid"></div>
+        </section>
+
+        <section id="produceViewMarkets" class="produce-tab-view" hidden>
+            <div class="produce-section-card">
+                <span class="produce-small-label">LOCAL OUTLETS</span>
+                <h2><i class="fa-solid fa-map-location-dot"></i> Partner Farmers Markets</h2>
+                <p>Quickly review the markets connected with the produce catalog.</p>
+            </div>
+            <div id="produceMarketsGrid" class="produce-markets-grid"></div>
+            <a href="#markets" class="produce-directory-link"><i class="fa-solid fa-arrow-right"></i> Open full Market Directory</a>
+        </section>
+
+        <section id="produceViewBookmarks" class="produce-tab-view" hidden>
+            <div class="produce-section-card produce-bookmarks-heading">
+                <div>
+                    <span class="produce-small-label">SAVED ITEMS</span>
+                    <h2><i class="fa-solid fa-bookmark"></i> My Shopping List</h2>
+                    <p>Save produce, add private notes, export or share your shopping list.</p>
+                </div>
+                <div class="produce-bookmark-actions">
+                    <button type="button" id="produceExportBtn" class="produce-dark-btn"><i class="fa-solid fa-file-arrow-down"></i> Export (.TXT)</button>
+                    <button type="button" id="produceShareBtn" class="produce-light-btn"><i class="fa-solid fa-share-nodes"></i> Share</button>
+                </div>
+            </div>
+            <div id="produceSavedList" class="produce-saved-list"></div>
+        </section>
+    </div>
+
+    <div id="produceShareModal" class="produce-modal" hidden>
+        <div class="produce-modal-card" role="dialog" aria-modal="true" aria-label="Share shopping list">
+            <button type="button" id="produceShareClose" class="produce-modal-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            <h3><i class="fa-solid fa-share-nodes"></i> Share Shopping List</h3>
+            <div class="produce-share-grid">
+                <button type="button" class="produce-share-btn" data-platform="whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                <button type="button" class="produce-share-btn" data-platform="twitter"><i class="fa-brands fa-x-twitter"></i> X / Twitter</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="produce-chat-wrap">
+        <div id="produceChatWindow" class="produce-chat-window" hidden>
+            <div class="produce-chat-head">
+                <div><strong><i class="fa-solid fa-robot"></i> Harvest Assistant</strong><small>Produce guide helper</small></div>
+                <button type="button" id="produceChatClose" aria-label="Close chat"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="produceChatStream" class="produce-chat-stream">
+                <div class="produce-bot-message">Hello! Ask me about vegetables, fruits, markets or bookmarks.</div>
+            </div>
+            <div class="produce-quick-chips">
+                <button type="button" data-query="What vegetables are available?">Vegetables</button>
+                <button type="button" data-query="Where are markets located?">Markets</button>
+                <button type="button" data-query="How do I bookmark items?">Bookmarks</button>
+            </div>
+            <form id="produceChatForm" class="produce-chat-form">
+                <input id="produceChatInput" type="text" placeholder="Ask a question..." autocomplete="off">
+                <button type="submit" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+        <button type="button" id="produceChatOpen" class="produce-chat-open" aria-label="Open assistant"><i class="fa-solid fa-message"></i></button>
+    </div>
+</section>
